@@ -1,1 +1,0 @@
-# projeto-culin-ria
