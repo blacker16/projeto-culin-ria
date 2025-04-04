@@ -20,7 +20,46 @@ header {
     color: #000000;
     text-align: center;
 }
+:root {
+    --main-color:#d9c7a8;
+    --cor:#ffffff;
+}
 
+
+body {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    margin-top: 0;
+    background-color: var(--cor);
+}
+
+header .logo img {
+    max-width: 100px;
+}
+
+header {
+
+    padding: 0;
+    color: #000000;
+    text-align: center;
+}
+
+.meio h2 {
+    border: 1px solid;
+    padding: 20px ;
+    box-shadow: 5px 10px;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+    margin: 2px 2px 2px 2px;
+}
+
+.doces h2 {
+    border: 1px solid;
+    padding: 20px;
+    box-shadow: 5px 10px;
+}
 .meio h2 {
     border: 1px solid;
     padding: 20px ;
