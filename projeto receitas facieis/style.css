@@ -15,11 +15,10 @@ header .logo img {
     left: 0;
     right: 0;
     z-index: 99;
-    margin: 2% 5% 5% 1%;
+    margin: 0% 5% 5% 1%;
 }
 
 header {
-
     padding: 0;
     color: #000000;
     text-align: center;
@@ -50,8 +49,7 @@ main {
 
 .navbar a {
     text-align: center;
-    text-decoration: none;
-   
+    text-decoration: overline;
 }
 
 nav a:hover {
@@ -61,10 +59,6 @@ nav a:hover {
 .converse {
     text-align: center;
 
-}
-
-.receita {
-    text-align: center;
 }
 
 .converse img {
@@ -98,11 +92,10 @@ footer {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.meio, img {
+.coiso, p {
     text-align: center;
 }
 
-.doces, img {
+.coisa, p {
     text-align: center;
-    
 }
