@@ -16,6 +16,7 @@ header .logo img {
     right: 0;
     z-index: 99;
     margin: 0% 5% 5% 1%;
+   
 }
 
 header {
@@ -25,6 +26,13 @@ header {
 }
 
 .meio h2 {
+    border: 1px solid;
+    padding: 20px ;
+    box-shadow: 5px 10px;
+}
+
+
+.meio h1 {
     border: 1px solid;
     padding: 20px ;
     box-shadow: 5px 10px;
@@ -41,10 +49,12 @@ main {
     padding: 20px;
 }
 
-.pagina, h2 {
+.pagina, h1, h2 {
+    font-size: 32px;
     font-family: Delius;
     color: var(--main-color);
     text-align: center;
+    box-shadow: 5px 10px;
 }
 
 .navbar a {
